@@ -1,0 +1,43 @@
+default_value: false
+my:
+  custom:
+    property: Hello from aplication properties
+server:
+  port:8080
+spring:
+  main:
+    banner-mode: console
+
+---
+spring:
+  config:
+    activate:
+      on-profile: jaz
+my:
+  custom:
+    property: Hello from aplication properties from profile JAZ
+
+---
+spring:
+  config:
+    activate:
+      on-profile: some-name
+  main:
+    banner-mode: console
+my:
+  custom:
+    property: Hello from aplication properties from profile some-name
+
+---
+default_value: true
+spring:
+  config:
+    activate:
+      on-profile: homework_profile
+my:
+  custom:
+    property: Hello form aplication propreties form homework_profile
+
+
+
+
