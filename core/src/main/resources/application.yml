@@ -38,6 +38,16 @@ my:
   custom:
     property: Hello form aplication propreties form homework_profile
 
+---
+#spring:
+#  main:
+#    banner-mode: console
+#  profiles:
+#    active: some-name_v2
+#my:
+#  custom:
+#    property: Hello from aplication properties from profile some-name
+
 
 
 
